@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* @media only screen and (max-width: 800px) { */
+
+/* BODY */
+    body{
+        background: linear-gradient(0deg, rgba(195,34,148,1) 32%, rgba(253,45,115,1) 100%) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 100vh;
+        padding: 100px;
+    }
+
+/* CONTAINER  SIGN-IN*/
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0,0,0,0.0.5);
+        box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+        
+
+
+        width: 20%;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    .title {
+        padding: 30px 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign-in{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 30px 0;
+        width: 80%;
+    }
+
+    .sign-in input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        color: black;
+        background-color: transparent;
+        border-style: none;
+        border-bottom: 1px  solid;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .button button {
+        font-size: 25px;
+        padding: 15px ;
+        margin-top: 10px;
+        background-color: #6c63ff;
+        border-style: none;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .button button:hover {
+        background-color: darkslateblue;
+    }
+
+    .register {
+
+        margin: 16px;
+
+        display: flex;
+        align-items: center;
+
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+/* ESTILO DE SIGN-UP */
+    .container_2 {
+        background: rgba(0,0,0,0.0.5);
+        box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+        border-radius: 20px;
+        
+        display: flex;
+        
+        width: 620px;
+        height: 460px;
+    }
+
+    .container_register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .title_2 {
+        padding-top: 30px;
+    
+    }
+    
+    .title_2 h1{
+        font-size: 40px;
+        font-weight: 200;
+        font-family: sans-serif;
+    }
+
+    .register{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .register input{
+        background-color: transparent;
+        border-style: none;
+        border-bottom: solid black 1px;
+
+        width: 260px;
+        padding: 10px;
+        margin: 8px;
+    }  
+
+    .terms{
+        padding: 10px 14px;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    
+   
+    .button_2{
+        display: flex;
+        align-items: center;
+        
+
+    }
+
+    .button_2 button {
+        font-size: 20px;
+        padding: 15px ;
+        margin-top: 15px; 
+        background-color: #6c63ff;
+        border-style: none;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .button_2 button:hover{
+        background-color: darkslateblue ;
+    }
+
+    .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 10px;
+    }
+
+    .image img {
+        
+        width: 240px;
+    }

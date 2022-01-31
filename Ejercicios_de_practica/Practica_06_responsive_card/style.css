@@ -1,0 +1,135 @@
+:root {
+    --BackgroundColor: hsl(214, 59%, 50%);
+    --LinkColor : hsl(205, 99%, 75%)
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    
+}
+/* ---------------------------------------------------------------- */
+ /* Elemento padre de la carta */
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--BackgroundColor);
+    color: white;
+}
+/* ---------------------------------------------------------------- */
+    /* Contenido de la carta */
+    
+img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2em;
+}
+
+.profile-sidebar ul {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100px;
+    list-style: none;
+
+    /* border: 1px solid red; */
+
+    padding: 0;
+}
+
+.profile-sidebar a {
+    color:var(--LinkColor);
+    opacity: 0.5;
+}
+
+.profile-sidebar :hover {
+    opacity: 1;
+}
+/* ---------------------------------------------------------------- */
+/* Elemento central de la carta */
+
+.profile-main {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    padding: 1em 2em;
+    
+}
+
+.profile-name {
+    margin: 0;
+}
+.profile-name::after{
+    content: "";
+    display: block;
+    background-color: white;
+    opacity: 0.35;
+
+    width: 3em;
+    height: 1px;
+    margin: 0.7em auto 0.5em;
+}
+
+.profile-position {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 2.75px;
+}
+
+
+.profile-body {
+    
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------------------------- */
+/* Media Query */
+@media only screen and (min-width: 600px) {
+    .card{
+        flex-direction: row;
+    }
+
+    .profile-sidebar {
+        margin-left: 1em;
+    }
+
+    .profile-main {
+        align-items: flex-start;
+    }
+
+    .profile-name::after{
+        margin-left: 0;
+        
+    }
+}

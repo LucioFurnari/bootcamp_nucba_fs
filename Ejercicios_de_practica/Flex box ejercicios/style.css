@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: coral;
+    padding: 10px;
+}
+
+.flex-container .hijo{
+    background-color: cornsilk;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    line-height: 75px;
+    color: black;
+}
+
+.flex-container .inicio{
+    justify-content: left;
+}

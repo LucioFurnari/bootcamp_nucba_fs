@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    background-repeat: no-repeat;
+    
+    background-position: inherit;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+header nav {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.list li {
+    display: inline-block;
+    padding: 10px 20px;
+
+    border-radius: 2px;
+    transition: background-color 0.5s;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+
+    
+}
+
+.list li:hover{
+    background-color: rgba(21, 93, 131, 0.73);
+    
+}
+
+nav img{
+    width: 80px;
+    padding: 10px;
+}
+
+
+
+ /* ARTICULOS DE LA PAGINA : */
+
+.articles {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ .art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 500px;
+    width: 500px;
+
+    margin: 100px 0px;
+
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.art img{
+    width: 300px;
+    height: 300px;
+
+    box-shadow: 1px 1px 10px 1px;
+
+    
+}
+
+.art p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}

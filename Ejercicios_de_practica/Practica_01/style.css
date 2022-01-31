@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.list-container{
+    display: flex;
+    background-color: grey;
+    font-family: sans-serif;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    border: 1px solid gainsboro;
+     
+}
+.list-container li{
+    background-color: rgb(150, 84, 84);
+    display: inline;
+    border-left: 1px solid white;
+}
+
+ .home {
+    align-self: flex-start;
+}
+    
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 50px;
+}
+
+a:hover {
+    background-color: rgb(103, 173, 206);
+}
+
+@media only screen and (max-width: 800px) {
+    .list-container {
+        flex-direction: column;
+    }
+}

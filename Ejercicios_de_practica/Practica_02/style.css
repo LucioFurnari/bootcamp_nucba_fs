@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin: 15px;
+    font: 18px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.link a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.link a:hover{
+    background-color: lightskyblue;
+}
+
+/* .img {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+} */
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px;
+}
+
+.button button {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.button button:hover{
+    background-color: lightskyblue;
+}
