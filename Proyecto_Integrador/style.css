@@ -417,14 +417,16 @@ footer {
 
 .loginContainer {
     width: 400px;
-    
+    background-color: var(--colorBackgroundSection);
+    box-shadow:  2px 2px 20px 5px black;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 40px 0;
 
-    border: 1px solid red;
+    
     border-radius: 20px;
 }
 
@@ -454,7 +456,7 @@ footer {
 }
 
 .loginContainer .loginButton:hover {
-    color: white;
+    color: var(--colorText);
     background-color: rgb(141, 66, 66) ;
 }
 
@@ -481,6 +483,9 @@ footer {
 }
 
 .registerContainer {
+    background-color: var(--colorBackgroundSection);
+    box-shadow:  2px 2px 20px 5px black;
+
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -488,8 +493,6 @@ footer {
     width: 400px;
     
     padding: 40px 0;
-
-    border: 1px solid red;
     border-radius: 20px;
 }
 
@@ -517,6 +520,12 @@ footer {
     border: none;
     margin-top: 30px;
     padding: 10px 30px;
+    background-color: rgb(196, 89, 89);
+}
+
+.registerContainer .registerButton:hover {
+    color: var(--colorText);
+    background-color: rgb(141, 66, 66) ;
 }
 
 /* =========================== MEDIA QUERY =============================== */
