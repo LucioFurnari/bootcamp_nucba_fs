@@ -366,6 +366,10 @@ width: 50rem;
     margin-top: 20px;
 }
 
+.contacts .contactsButton {
+    background-color: rgb(196, 89, 89);
+}
+
 .contactsButton:hover {
     background-color: rgb(141, 66, 66);
 }
@@ -419,6 +423,7 @@ footer {
     width: 400px;
     background-color: var(--colorBackgroundSection);
     box-shadow:  2px 2px 20px 5px black;
+    color: var(--colorText);
 
     display: flex;
     flex-direction: column;
@@ -485,6 +490,7 @@ footer {
 .registerContainer {
     background-color: var(--colorBackgroundSection);
     box-shadow:  2px 2px 20px 5px black;
+    color: var(--colorText);
 
     display:flex;
     flex-direction: column;
