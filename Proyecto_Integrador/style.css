@@ -296,9 +296,11 @@ main {
     display: grid;
     justify-content: center;
     grid-template-columns:  500px 500px 500px;
-    grid-template-rows: 500px 500px auto;
+    grid-template-rows: 500px 500px;
     gap: 10px;
 
+    margin: 20px 0;
+    box-shadow:  2px 2px 20px 5px black;
     /* border: 1px solid violet; */
 }
 .media  img {
