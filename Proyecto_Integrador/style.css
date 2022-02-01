@@ -319,13 +319,16 @@ main {
 /* =========================== CONTACTS =============================== */
 
 .contactsDiv {
+    box-shadow:  2px 2px 20px 5px black;
     display: flex;
     flex-direction: column;
     align-items: center;
     
+    background-color: var(--colorBackgroundSection);
     width: 100%;
+    padding: 20px 0;
 
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .contactsHeader{
@@ -335,6 +338,10 @@ align-items: center;
 width: 50rem;
 }
 
+.contactsHeader h3 {
+    font-size: 40px;
+    color: var(--colorText);
+}
 .contacts {
     display: flex;
     flex-direction: column;
@@ -345,25 +352,36 @@ width: 50rem;
 
 .contacts input {
     width: 20rem;
-    
+    color: var(--colorText);
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: var(--colorBackgroundSection);
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .contacts textarea {
     width: 20rem;
     height: 20rem;
+    margin-top: 20px;
+}
+
+.contactsButton:hover {
+    background-color: rgb(141, 66, 66);
 }
 
 /* =========================== FOOTER =============================== */
 
 footer {
     display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
+    justify-content: space-evenly;
+    
 }
 
 .linkFooter {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .community {
@@ -536,6 +554,11 @@ footer {
         flex-direction: column;
     }
 
+    .media {
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 400px 400px 400px;
+    }
+
     /* .explore {
         flex-direction: column;
     } */
@@ -561,18 +584,6 @@ footer {
     } */
 }
 
-@media only screen and (max-width: 1600px ) {
-    /* .mediaImg3 {
-        grid-column: 1 /2 ;
-        grid-row: 2/3;
-    } */
-
-    .media {
-        grid-template-columns: 400px 400px;
-        grid-template-rows: 400px 400px 400px;
-    }
-}
-
 @media only screen and (max-width: 900px) {
     .menuImage img {
         height: 100px;
@@ -590,7 +601,14 @@ footer {
         width: 30rem;
     } 
 
+    
+    .socialLinks{
+        justify-content: space-evenly;
+    }
 
+    .socialLinks img {
+        width: 40px;
+    }
 
     /* .explore {
         flex-direction: column;
