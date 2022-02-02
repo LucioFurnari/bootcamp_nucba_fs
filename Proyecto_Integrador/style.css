@@ -335,7 +335,7 @@ main {
 display: flex;
 justify-content: center;
 align-items: center;
-width: 50rem;
+
 }
 
 .contactsHeader h3 {
@@ -345,9 +345,7 @@ width: 50rem;
 .contacts {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 50rem;
-    
+    align-items: center;    
 }
 
 .contacts input {
@@ -558,10 +556,12 @@ footer {
     }
 
     .about img {
+        margin-top: 20px;
         width: 40rem;
     }
 
     .features img {
+        margin-top: 20px;
         width: 40rem;
     }
 
