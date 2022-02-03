@@ -208,87 +208,6 @@ main {
     margin-bottom: 16px;
 } 
 
-/* .explore img {
-    width: 50rem;
-} */
-
-/* .equip {
-    box-shadow:  2px 2px 20px 5px black;
-    background-color: var(--colorBackgroundSection);
-
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-    padding: 20px;
-    margin: 20px 0;
-    /* border: 1px solid  red; 
-}
-
-/* .equipTitle {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0 20px;
-    font-size: 20px;
-}
-
-.equipTitle h2 {
-    font-size: 40px;
-} */
-
-/* .equipTitle h2::after {
-    content: "";
-    display: block;
-    height: 1px;
-    background-color: black;
-    width: 100px;
-    margin-bottom: 16px;
-} */
-
-/* .equip img {
-    width: 50rem;
-} */
-
-/* .aLife {
-    box-shadow:  2px 2px 20px 5px black;
-    background-color: var(--colorBackgroundSection);
-
-    display: flex;
-    width: 100%;
-    align-items: center;
-    
-    padding: 20px;
-    margin: 20px 0;
-    /* border: 1px solid red; 
-} 
-
-/* .aLifeTitle {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0 20px;
-    font-size: 20px;
-} */
-
-/* .aLifeTitle h2 {
-    font-size: 40px;
-}
-
-.aLifeTitle h2::after {
-    content: "";
-    display: block;
-    height: 1px;
-    background-color: black;
-    width: 100px;
-    margin-bottom: 16px;
-} */
-
-/* .aLife img {
-    width: 50rem;
-} */
-
 /* =========================== MEDIA =============================== */
 
 .media {
@@ -584,29 +503,6 @@ footer {
         grid-template-rows: 400px 400px 400px;
     }
 
-    /* .explore {
-        flex-direction: column;
-    } */
-/* 
-    .explore img {
-        width: 40rem;
-    } */
-
-    /* .equip {
-        flex-direction: column;
-    } */
-
-    /* .equip img {
-        width: 40rem;
-    } */
-
-    /* .aLife {
-        flex-direction: column;
-    } */
-
-    /* .aLife img {
-        width: 40rem;
-    } */
 }
 
 @media only screen and (max-width: 900px) {
@@ -635,30 +531,6 @@ footer {
         width: 40px;
     }
 
-    /* .explore {
-        flex-direction: column;
-    } */
-
-    /* .explore img {
-        width: 30rem;
-    } */
-
-    /* .equip {
-        flex-direction: column;
-    } */
-
-    /* .equip img {
-        width: 30rem;
-    } */
-
-    /* .aLife {
-        flex-direction: column;
-    } */
-
-    /* .aLife img {
-        width: 30rem;
-    } */
-
     .media {
         grid-template-columns: 400px ;
         grid-template-rows: 400px 400px 400px 400px 400px 400px;
@@ -678,30 +550,6 @@ footer {
         width: 20rem;
     } 
 
-
-    /* .explore {
-        flex-direction: column;
-    } */
-
-    /* .explore img {
-        width: 20rem;
-    } */
-
-    /* .equip {
-        flex-direction: column;
-    } */
-
-    /* .equip img {
-        width: 20rem;
-    } */
-
-    /* .aLife {
-        flex-direction: column;
-    } */
-
-    /* .aLife img {
-        width: 20rem;
-    } */
 }
 
 @media only screen and (max-width: 420px){
@@ -710,34 +558,18 @@ footer {
     }
 
     .about img {
-        width: 18rem;
+        width: 22rem;
     }
 
     .features img {
-        width: 18rem;
+        width: 22rem;
     }
 
-    /* .explore {
-        flex-direction: column;
-    } */
+    .loginContainer {
+        width: 340px;
+    }
 
-    /* .explore img {
-        width: 18rem;
-    } */
-
-    /* .equip {
-        flex-direction: column;
-    } */
-
-    /* .equip img {
-        width: 18rem;
-    } */
-/* 
-    .aLife {
-        flex-direction: column;
-    } */
-
-    /* .aLife img {
-        width: 18rem;
-    } */
+    .registerContainer{
+        width: 340px;
+    }
 }
