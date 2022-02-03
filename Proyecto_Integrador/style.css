@@ -305,6 +305,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: var(--colorText);
 }
 
 .community {
@@ -312,6 +313,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
+    color: var(--colorText);
 }
 
 .socialLinks {
