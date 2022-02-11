@@ -1,0 +1,70 @@
+:root {
+    --ColorText : #000000;
+    --ColorCookieButton : #ED6755;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cookiesAlert {
+    border: 1px red solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: 432px;
+    height: 399px;
+    text-align: center;
+}
+
+.cookieContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.cookieContainer img {
+    margin-bottom: 20px;
+}
+
+.cookieContainer p {
+    color: var(--ColorText);
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cookieContainer button {
+    border: none;
+    background-color: var(--ColorCookieButton);
+    padding: 16px 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow:0px 4px 10px 1px #ED6755;
+
+}
+.ExitButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.ExitButton {
+    border: none;
+    background: none;
+}
