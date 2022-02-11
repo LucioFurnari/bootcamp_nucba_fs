@@ -19,11 +19,13 @@ main {
 
 .cookiesAlert {
     border: 1px red solid;
+    background-color: #fffaf1;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    margin-top: 20px;
     width: 432px;
     height: 399px;
     text-align: center;
